@@ -107,13 +107,13 @@ body
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;}
-.head-row_top, .head-row_lower
+.head-row_top
     {color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;}
-.paragraph-row_top, .paragraph-row_lower
+.paragraph-row_top
     {color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -122,7 +122,7 @@ body
 
 /*====footer====*/
 .footer{background-color: #2e2f42;}
-.logo-footer span
+.logo_logo
     {color:#F4F4FD;}
 .logo-footer
     {color:#4D5AE5;
