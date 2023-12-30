@@ -139,22 +139,28 @@ img
     line-height: 1.5;
     letter-spacing: 0.02em;}
 /*====our-team====*/
-.card
+
+.item-list-team 
      {display: flex;
+    flex-wrap: wrap;
     margin: 0 0 120px 0;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
 .team{background-color: #F4F4FD;}
 .list-team
-    {display: flex;
+    {
+    display: flex;
     gap: 24px;}
 .item-list-team
     {background-color:  #FFFFFF}
 .item-list-team h3
-    {padding: 32px 0 8px 0;}
+    {display: flex;
+    padding: 32px 25px 8px ;
+    margin: 0 auto;}
 .item-list-team p
-        {padding-bottom: 32px;}
+    {padding-bottom: 32px;
+    margin: 0 auto;}
 .head-team
     {padding: 240px 0 72px 0;
     color: #2E2F42;
@@ -178,7 +184,10 @@ img
     line-height: 1.5;
     letter-spacing: 0.02em;}
 /*====our-portfolio====*/
-.row-list 
+.row_top h3
+    {border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;}
+.row_top p
         {border-bottom:1px solid #E7E9FC;
         border-left: 1px solid #E7E9FC;
         border-right: 1px solid #E7E9FC;}
