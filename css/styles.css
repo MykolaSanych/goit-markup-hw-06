@@ -38,8 +38,8 @@ img {
 
 /*====top-line====*/
 .header .conteiner {
-  border-bottom: 1px solid #E7E9FC;
-  background: #FFF;
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
   display: flex;
 }
 
@@ -61,11 +61,11 @@ img {
 }
 
 .logo span {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .logo {
-  color: #4D5AE5;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -75,7 +75,7 @@ img {
 }
 
 .item-list-menu {
-  color: #2E2F42;
+  color: #2e2f42;
   padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
@@ -85,12 +85,12 @@ img {
 
 .item-list-menu:hover,
 .item-list-menu:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .item-list-menu:active {
-  color: #404BBF;
-  background-color: #404BBF;
+  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .address {
@@ -108,7 +108,7 @@ img {
 
 .item-list-address:hover,
 .item-list-address:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 /*====hero-image====*/
@@ -119,13 +119,13 @@ img {
   width: 1440px;
   height: 600px;
   border: 1px solid #000;
-  background: #2E2F42;
+  background: #2e2f42;
 }
 
 .item-title {
   margin: auto;
   padding: 188px 0 48px 0;
-  color: #FFF;
+  color: #fff;
   width: 496px;
   text-align: center;
   font-size: 56px;
@@ -141,10 +141,10 @@ img {
   margin-right: auto;
   gap: 10px;
   border-radius: 4px;
-  background: #4D5AE5;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -154,7 +154,7 @@ img {
 
 .title button:hover,
 .title button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /*====features====*/
@@ -182,7 +182,7 @@ img {
 
 .head-list-features {
   padding: 168px 0 8px 0;
-  color: #2E2F42;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -203,12 +203,14 @@ img {
   flex-wrap: wrap;
   margin: 0 0 120px 0;
   border-radius: 0px 0px 4px 4px;
-  background: #FFF;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .list-team {
@@ -217,7 +219,7 @@ img {
 }
 
 .item-list-team {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .item-list-team h3 {
@@ -233,7 +235,7 @@ img {
 
 .head-team {
   padding: 240px 0 72px 0;
-  color: #2E2F42;
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -243,7 +245,7 @@ img {
 }
 
 .head-list-team {
-  color: #2E2F42;
+  color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -261,14 +263,14 @@ img {
 
 /*====our-portfolio====*/
 .row_top h3 {
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .row_top p {
-  border-bottom: 1px solid #E7E9FC;
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .row_top {
@@ -280,7 +282,7 @@ img {
 
 .head-portfolio {
   padding: 120px 0 72px;
-  color: #2E2F42;
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -291,7 +293,7 @@ img {
 
 .head-row_top {
   padding: 32px 16px 8px;
-  color: #2E2F42;
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -315,14 +317,14 @@ img {
 }
 
 .logo_logo {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .logo-footer {
   display: block;
   padding: 100px 0 0 156px;
-  color: #4D5AE5;
-  background-color: #2E2F42;
+  color: #4d5ae5;
+  background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -335,8 +337,8 @@ img {
   display: block;
   width: 420px;
   padding: 17px 0 0 156px;
-  color: #F4F4FD;
-  background-color: #2E2F42;
+  color: #f4f4fd;
+  background-color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
