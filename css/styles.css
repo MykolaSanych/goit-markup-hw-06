@@ -215,7 +215,6 @@ img {
   width: calc((100% - 72px) / 4);
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 120px 0;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -328,7 +327,7 @@ img {
 }
 
 .logo-footer {
-  padding: 0 0 0 156px;
+  /*padding: 0 0 0 156px;*/
   display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
@@ -343,8 +342,8 @@ img {
 
 .paragraph-footer {
   display: block;
-  width: 420px;
-  padding: 0 0 0 156px;
+  width: 264px;
+ /* padding: 0 0 0 156px;*/
   color: #f4f4fd;
   background-color: #2e2f42;
   font-size: 16px;
