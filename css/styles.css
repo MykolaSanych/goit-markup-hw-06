@@ -197,13 +197,13 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
-   width: 100%;
-   height: 112px;  
+  width: 100%;
+  height: 112px;
   margin-bottom: 8px;
 }
-.svg-icon-features{
+/* .svg-icon-features{
   height: 64px;
-}
+} */
 .features {
   padding: 120px 0;
 }
@@ -332,8 +332,6 @@ img {
 
 .svg-icon-team {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
 }
 /*====our-portfolio====*/
 .portfolio {
@@ -386,12 +384,13 @@ img {
 }
 .item-row_top:hover .seller-text {
   transform: translateY(0%);
-  
 }
-.item-row_top:hover{
+.item-row_top {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-row_top:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .seller-text {
@@ -403,7 +402,7 @@ img {
   position: absolute;
   top: 0px;
   transform: translateY(100%);
-  transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -489,7 +488,5 @@ img {
 }
 
 .svg-icon-footer {
-  fill: white;
-  width: 24px;
-  height: 24px;
+  fill: #f4f4fd;
 }
