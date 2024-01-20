@@ -489,6 +489,61 @@ img {
 .svg-icon-footer {
   fill: #f4f4fd;
 }
+
+.form-footer{
+  margin-left: 80px;
+}
+.paragraph-form-footer {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
+.subscription-form-footer {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.subscription-form-footer::placeholder {
+  color #ffffff;
+
+}
+.button-form-footer{
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+.svg-button-form-footer{
+  margin-left: 16px;
+
+}
+/*----form----*/
 .backdrop {
   height: 100%;
   width: 100%;
@@ -497,18 +552,25 @@ img {
   left: 0;
   background-color: rgba(46, 47, 66, 0.4);
 }
-/*----form----*/
 .modal {
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .close-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -517,11 +579,24 @@ img {
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-buttom:hover,
+.close-buttom:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-buttom:hover,
+.close-buttom:focus .close-icon {
+  fill: #ffffff;
 }
 .title-form {
-  display: flex;
-  justify-content: center;
-  margin-top: 72px;
+  text-align: center;
   margin-bottom: 16px;
   color: #2e2f42;
   font-family: Roboto;
@@ -550,6 +625,9 @@ img {
   line-height: 1.17em;
   letter-spacing: 0.04em;
   height: 100%;
+}
+.input-field {
+  position: relative;
 }
 
 .data-input {
