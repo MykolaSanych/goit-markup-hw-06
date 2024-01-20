@@ -696,9 +696,6 @@ img {
   overflow: hidden;
 }
 .check-text {
-  margin: 8px 0 0 0;
-  display: flex;
-  align-items: flex-end;
   color: #8e8f99;
   font-family: Roboto;
   font-size: 12px;
